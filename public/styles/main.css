@@ -1,0 +1,56 @@
+:root{
+    --title-color: #322153;
+    --primary-color: #34cb79;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+body{
+    background-color: #f0f0f5;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--title-color);
+}
+
+/* #night_mode_button.hide{
+    background-color: #1C161C;
+}
+
+#night_mode_button.hide p{
+    color: #f0f0f5;
+}
+
+#night_mode_button.hide{
+    display: hidden;
+}
+
+#night_mode_button {
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    border: none;
+    background-color: white;
+    align-self: baseline;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#night_mode_button img{
+    width: 25px;
+    height: auto;
+} */
