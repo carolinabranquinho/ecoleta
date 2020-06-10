@@ -75,7 +75,7 @@ main .card h3{
 body::after{
     content: "";
     position: fixed;
-    background-color: white;
+    background-color: var(--search-result-bg);
     top: 260px;
     right: 0;
     left: 0;

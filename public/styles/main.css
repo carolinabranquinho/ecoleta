@@ -3,15 +3,19 @@
     --primary-color: #34cb79;
     --background-color: #f0f0f5;
     --text-color: #000000;
+    --form-color: white;
+    --search-result-bg: white;
 
     --background: var(--background-color);
 }
 
-.darkmode {
+body.darkmode {
     --title-color: #322153;
     --primary-color: #34cb79;
-    --background-color: #1C161C;
+    --background-color: #221C22;
     --text-color: #f0f0f5;
+    --form-color:#ECECEC;
+    --search-result-bg: #2D252D;
 
     --background: var(--background-color);
 }

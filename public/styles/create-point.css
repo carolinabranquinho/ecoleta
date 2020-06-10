@@ -31,8 +31,12 @@
     margin: 0 auto;
 }
 
+.space{
+    padding: 15px;
+}
+
 form {
-    background-color: white;
+    background-color: var(--form-color);
     margin-top: 80px;
     padding: 64px;
     border-radius: 8px;
@@ -77,7 +81,7 @@ form .field-group{
 }
 
 form input, form select{
-    background-color: #f0f0f5;
+    background-color: #f5f5f5;
     border:0;
     padding: 16px 24px;
     font-size: 16px;
